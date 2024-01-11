@@ -1,0 +1,32 @@
+.blog-title {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+nav {
+    float: left;
+    padding: 20px;
+    width: 20%;
+    background: #ccc;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
