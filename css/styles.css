@@ -36,9 +36,11 @@ article {
     height: auto;
 }
 
-body {
-    background-image: url("../images/IMG-8310.jpg");
+div {
+    /* background-image: url("../images/IMG-8310.jpg"); */
+    background-image: linear-gradient(to right, white, red);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: scroll;
 }
