@@ -36,9 +36,27 @@ article {
     height: auto;
 }
 
-div {
+/* div { */
     /* background-image: url("../images/IMG-8310.jpg"); */
-    background-image: linear-gradient(to right, white, red);
+    /* background-color: white; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-attachment: scroll; */
+/* } */
+
+header {
+    background-color: orange;
+}
+
+.logo {
+    mix-blend-mode: multiply;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url("../images/IMG-8310.jpg");
+    /* background-color: white; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
