@@ -7,6 +7,11 @@
 footer {
     text-align: center;
     font-weight: bold;
+    position: absolute;
+    padding: 1%;
+    bottom: 0;
+    width: 100%;
+    color: white;
 }
 
 .topnav {
@@ -33,6 +38,7 @@ article {
     text-align: center;
     width: 100%;
     background: #f1f1f1;
+    /* position: relative; */
 }
 
 @media (max-width: 600px) {
@@ -74,4 +80,5 @@ body {
     background-position: center;
     background-attachment: scroll;
     font-family: Arial, Helvetica, sans-serif;
+    /* position: relative; */
 }
