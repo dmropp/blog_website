@@ -1,7 +1,3 @@
-html {
-    text-size-adjust: auto;
-}
-
 .blog-title {
     color: black;
     text-align: center;
@@ -71,6 +67,7 @@ article {
 header {
     background-color: white;
     text-align: center;
+    text-size-adjust: auto;
 }
 
 .logo {
