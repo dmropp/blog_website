@@ -7,13 +7,13 @@
 footer {
     text-align: center;
     font-weight: bold;
-    position: relative;
-    /* padding: 1%; */
+    /* position: static; */
+    /* padding: 10px 0; */
     bottom: 0;
     left: 0;
     width: 100%;
     color: white;
-    /* height: auto; */
+    height: auto;
 }
 
 .topnav {
@@ -40,7 +40,7 @@ article {
     text-align: center;
     width: 100%;
     background: #f1f1f1;
-    position: relative;
+    /* position: static; */
 }
 
 @media (max-width: 600px) {
@@ -51,7 +51,7 @@ article {
 }
 
 .photo-gallery-image {
-    width: 40%;
+    width: 40vw;
     height: auto;
 }
 
@@ -86,7 +86,8 @@ body {
 }
 
 .about-pic {
-    width: 50vh;
+    width: 25vw;
+    height: auto;
     padding: 20px;
 }
 
