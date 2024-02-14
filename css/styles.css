@@ -1,3 +1,7 @@
+html {
+    text-size-adjust: auto;
+}
+
 .blog-title {
     color: black;
     text-align: center;
