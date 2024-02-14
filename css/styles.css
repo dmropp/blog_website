@@ -68,10 +68,12 @@ header {
     background-color: white;
     text-align: center;
     text-size-adjust: auto;
+    white-space: nowrap;
 }
 
 .logo {
     mix-blend-mode: multiply;
+    object-fit: cover;
 }
 
 body {
